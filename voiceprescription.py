@@ -293,8 +293,8 @@ def createPDF():
 @app.route("/sendPDF")
 def sendPDF():
     global newFilename
-    email_user = 'jenn18cs030@rmkcet.ac.in'
-    email_password = '04.07.2000' 
+    email_user = 'mymailid'
+    email_password = 'mypassword' 
     email_send = email
     
     
